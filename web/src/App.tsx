@@ -1,7 +1,9 @@
 import { useState } from 'react'
 
 function App() {
-  return <h1> Ambiente Pronto</h1>
+  return(
+    <button className='bg-violet-500'>ok</button>
+  )
 }
 
 export default App
