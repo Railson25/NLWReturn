@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ArrowLeft, Camera } from "phosphor-react"
 import { FeedbackType, feedbackTypes } from ".."
 import { CloseButton } from "../../CloseButton"
@@ -49,6 +50,21 @@ export function FeedBackContentStep({feedbackType, onFeedbackRestartRequested} :
                    </button>
                </footer>
             </form>
+=======
+import { CloseButton } from "../../CloseButton"
+
+export function FeedBackContentStep() {
+    return(
+        <>
+            <header>
+                <span className="text-xl leading-6">Deixe seu feedback</span>
+                <CloseButton />
+            </header>
+
+            <div className="flex py-8 gap-2 w-full">
+                    
+                </div>
+>>>>>>> 83b2fd89bdd3ff5c160f0bab20b493221cc6d55b
         </>
     )
 }
